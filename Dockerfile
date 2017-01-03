@@ -6,5 +6,5 @@ RUN apk add --update \
       && npm cache clean \          # Cleanup
       && apk remove \
         build-base \
-      && rm -rf /var/cache/apk/* \
+      && rm -rf /var/cache/apk/*
 
